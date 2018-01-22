@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <title>Add Item</title>
+</head>
+
+<!--bootstrap container for dynamic sizing-->
+<body class="container">
+<fieldset>
+
+    <!--Form's title-->
+    <legend>Add Item</legend>
+
+    <!--Bootstrap forms, input to DB through HTTP POST method in php_crud dir-->
+    <form action="php_crud/db_create.php" method="post">
+
+        <!--1st row-->
+        <div class="form-group">
+            <label for="name">Item Name</label>
+            <input type="text" class="form-control" name="name" aria-describedby="itemHelp" placeholder="Enter Item Name">
+        <small id="itemHelp" class="form-text text-muted">Input Full Name of Item</small>
+        </div>
+
+        <!--2nd Row-->
+        <div class="form-group">
+            <label for="stockNum">Stock Count</label>
+            <input type="text" class="form-control" name="stockNum" placeholder="Enter Number of Stock">
+        </div>
+
+        <!--3rd Row-->
+        <div class="form-group">
+            <label for="price">Item Price</label>
+            <input type="text" class="form-control" name="price" placeholder="Enter Price of Item">
+        </div>
+
+        <!--Button, back button anchored to index.php-->
+        <button type="submit" class="btn btn-dark">Submit</button>
+        <a href="index.php"><button type="button" class="btn btn-dark">Back</button></a>
+    </form>
+    
+</fieldset>
+
+</body>
+</html>
