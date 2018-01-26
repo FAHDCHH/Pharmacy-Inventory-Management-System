@@ -43,7 +43,7 @@
 
         <!--Button, back button anchored to index.php-->
         <button type="submit" class="btn btn-dark">Submit</button>
-        <a href="index.php"><button type="button" class="btn btn-dark">Back</button></a>
+        <a href="table.php"><button type="button" class="btn btn-dark">Back</button></a>
     </form>
     
 </fieldset>
