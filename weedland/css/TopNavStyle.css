@@ -1,0 +1,88 @@
+/* Add a black background color to the top navigation bar */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.topnav {
+    overflow: hidden;
+    background-image: url(http://ak7.picdn.net/shutterstock/videos/12573827/thumb/1.jpg);
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+/* Background picture */
+.weedbackground {
+    background-image: url(http://ak7.picdn.net/shutterstock/videos/12573827/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(175, 173, 173, 0.178);
+    color: rgb(255, 255, 255);
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: rgb(253, 253, 253);
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    margin-right: 10px;
+}
+
+.topnav .search-container {
+    float: right;
+}
+  
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+  
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+  
+ 
