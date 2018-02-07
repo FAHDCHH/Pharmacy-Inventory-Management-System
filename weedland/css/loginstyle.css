@@ -1,0 +1,196 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  height: 98%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  
+  background: -webkit-linear-gradient(315deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
+  background: linear-gradient(135deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-size: 1.5em;
+}
+#login:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("https://www.cssscript.com/wp-content/uploads/2015/07/Triangles.js.jpg");
+  background-size: cover;
+  
+
+  
+}
+
+#register:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("http://images.all-free-download.com/images/graphiclarge/geometry_blue_abstract_background_6819697.jpg");
+  background-size: cover;
+  
+
+  
+}
+
+.login-form {
+  width: 100%;
+  padding: 2em;
+  position: relative;
+  background: rgba(0, 0, 0, 0.60);
+  border-radius: 10px;
+}
+.login-form:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  
+}
+@media screen and (min-width: 600px) {
+  .login-form {
+    width: 50vw;
+    max-width: 15em;
+  }
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1em;
+  margin-top: 20px;
+}
+
+.lf--label {
+  width: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #f5f6f8;
+  cursor: pointer;
+}
+
+.lf--input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1em;
+  border: 0;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.lf--input:focus {
+  outline: none;
+  -webkit-transition: -webkit-transform .15s ease;
+  transition: -webkit-transform .15s ease;
+  transition: transform .15s ease;
+  transition: transform .15s ease, -webkit-transform .15s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lf--submit {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  background: -webkit-linear-gradient(left, #35c3c1, #00d6b7);
+  background: linear-gradient(to right, #35c3c1, #00d6b7);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: .75em;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.lf--submit:focus {
+  outline: none;
+  -webkit-transition: -webkit-transform .15s ease;
+  transition: -webkit-transform .15s ease;
+  transition: transform .15s ease;
+  transition: transform .15s ease, -webkit-transform .15s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.lf--register {
+  margin-top: 1em;
+  color: #8fa9ff;
+  font-size: .65em;
+}
+
+.lf--registerword {
+  margin-top: 1em;
+  margin-left: 62px;
+  color: #fffffb;
+  font-size: .75em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.mainmenu{
+  border: solid rgb(255, 255, 255) 1px;
+  border-radius: 2px;
+  padding:2px;
+  padding-left:8px;
+  padding-right:8px;
+  margin-left: 90px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration:none;
+}
+
+.mainmenu:hover{
+  color: rgb(2, 219, 154);
+  border: solid rgb(2, 219, 154) 1px;
+
+}
+
+::-webkit-input-placeholder {
+  color: #8f8f8f;
+}
+
+::-moz-placeholder {
+  color: #8f8f8f;
+}
+
+:-ms-input-placeholder {
+  color: #8f8f8f;
+}
+
+::placeholder {
+  color: #8f8f8f;
+}
